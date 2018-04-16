@@ -1,0 +1,2 @@
+<script>abrirPopup("http://erp.equipan.com.br/pedidos/imprimir/<?php echo $id ?>", 500, 400);</script>
+<script language= "JavaScript">location.href="<?php echo $this->Html->url('/') ?>pedidos/add"</script>

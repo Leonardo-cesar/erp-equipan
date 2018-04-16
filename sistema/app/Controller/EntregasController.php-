@@ -1,0 +1,372 @@
+<?php
+
+App::uses('AppController', 'Controller');
+
+/**
+ * Entregas Controller
+ *
+ * @property Entrega $Entrega
+ * @property PaginatorComponent $Paginator
+ * @property SessionComponent $Session
+ */
+class EntregasController extends AppController {
+
+    public $uses = array('Entrega', 'Codigo', 'CodigosKitsPedido');
+
+    /**
+     * Components
+     *
+     * @var array
+     */
+    public $components = array('Paginator', 'Session');
+
+    /**
+     * index method
+     *
+     * @return void
+     */
+    public function index() {
+        $this->Entrega->recursive = 0;
+        $this->set('entregas', $this->Paginator->paginate());
+    }
+
+    /**
+     * view method
+     *
+     * @throws NotFoundException
+     * @param string $id
+     * @return void
+     */
+    public function view($id = null) {
+        if (!$this->Entrega->exists($id)) {
+            throw new NotFoundException(__('Invalid entrega'));
+        }
+        $options = array('conditions' => array('Entrega.' . $this->Entrega->primaryKey => $id));
+        $this->set('entrega', $this->Entrega->find('first', $options));
+    }
+
+    /**
+     * add method
+     *
+     * @return void
+     */
+    public function add() {
+        $permissao['permissao']['setor'] = 1;
+        $this->permissao($permissao);
+    }
+
+    public function lote() {
+        $permissao['permissao']['setor'] = 1;
+        $this->permissao($permissao);
+    }
+
+    /**
+     * edit method
+     *
+     * @throws NotFoundException
+     * @param string $id
+     * @return void
+     */
+    public function edit($id = null) {
+        if (!$this->Entrega->exists($id)) {
+            throw new NotFoundException(__('Invalid entrega'));
+        }
+        if ($this->request->is(array('post', 'put'))) {
+            if ($this->Entrega->save($this->request->data)) {
+                $this->Session->setFlash(__('The entrega has been saved.'));
+                return $this->redirect(array('action' => 'index'));
+            } else {
+                $this->Session->setFlash(__('The entrega could not be saved. Please, try again.'));
+            }
+        } else {
+            $options = array('conditions' => array('Entrega.' . $this->Entrega->primaryKey => $id));
+            $this->request->data = $this->Entrega->find('first', $options);
+        }
+        $unidades = $this->Entrega->Unidade->find('list');
+        $usuarios = $this->Entrega->Usuario->find('list');
+        $pedidos = $this->Entrega->Pedido->find('list');
+        $this->set(compact('unidades', 'usuarios', 'pedidos'));
+    }
+
+    /**
+     * delete method
+     *
+     * @throws NotFoundException
+     * @param string $id
+     * @return void
+     */
+    public function delete($id = null) {
+        $this->Entrega->id = $id;
+        if (!$this->Entrega->exists()) {
+            throw new NotFoundException(__('Invalid entrega'));
+        }
+        $this->request->allowMethod('post', 'delete');
+        if ($this->Entrega->delete()) {
+            $this->Session->setFlash(__('The entrega has been deleted.'));
+        } else {
+            $this->Session->setFlash(__('The entrega could not be deleted. Please, try again.'));
+        }
+        return $this->redirect(array('action' => 'index'));
+    }
+
+    public function pesquisar() {
+        $this->viewClass = 'Json';
+        if ($this->request->query['pedido'] != '') {
+            $data = $this->Entrega->Pedido->find('first', array(
+                'conditions' => array('Pedido.id' => $this->request->query['pedido']),
+                'fields' => array('id', 'observacao', 'tipo', 'unidade_id'),
+                'contain' => array(
+                    'Cliente' => array('fields' => array('nome')),
+                    'KitsPedido' => array(
+                        'Codigo' => array('fields' => array('codigo')),
+                        'Kit' => array('fields' => 'nome', 'tipo', 'id', 'codigo'),
+                        'fields' => array('id', 'kit_id', 'placa', 'tarjeta', 'renavan', 'autorizacao', 'entregue', 'paga', 'observacao')
+                    ),
+                    'Entrega' => array('fields' => array('observacao'))
+                ),
+            ));
+        } else {
+            $data = $this->Entrega->Pedido->KitsPedido->find('first', array(
+                'conditions' => array('KitsPedido.placa' => $this->request->query['placa']),
+                'fields' => array('id', 'kit_id', 'placa', 'tarjeta', 'renavan', 'autorizacao', 'entregue', 'paga', 'observacao'),
+                'contain' => array(
+                    'Codigo' => array('fields' => array('codigo')),
+                    'Kit' => array('fields' => 'nome', 'tipo', 'id', 'codigo'),
+                    'Pedido' => array(
+                        'Cliente' => array('fields' => array('nome')),
+                        'fields' => array('id', 'observacao', 'tipo'),
+                    ),
+                ),
+            ));
+        }
+
+        $this->set('data', $data);
+        $this->set('_serialize', 'data');
+    }
+
+    public function baixar() {
+        $this->viewClass = 'Json';
+
+        if (isset($this->request->data['Entrega']['kits_pedido_id'])) {
+            $this->Entrega->Pedido->KitsPedido->id = $this->request->data['Entrega']['kits_pedido_id'];
+            $this->Entrega->Pedido->KitsPedido->saveField('autorizacao', $this->request->data['Placa']['autorizacao']);
+            $this->Entrega->Pedido->KitsPedido->saveField('renavan', $this->request->data['Placa']['renavan']);
+            $this->Entrega->Pedido->KitsPedido->saveField('entregue', 1);
+
+            if (array_key_exists('DT', $this->request->data['Codigo'][$this->request->data['Entrega']['kits_pedido_id']])) {
+                $dCodigo['Codigo'][] = array(
+                    'codigo_id' => $this->request->data['Codigo'][$this->request->data['Entrega']['kits_pedido_id']]['DT'],
+                    'kits_pedido_id' => $this->request->data['Entrega']['kits_pedido_id']
+                );
+            }
+
+            if (array_key_exists('TR', $this->request->data['Codigo'][$this->request->data['Entrega']['kits_pedido_id']])) {
+                $dCodigo['Codigo'][] = array(
+                    'codigo_id' => $this->request->data['Codigo'][$this->request->data['Entrega']['kits_pedido_id']]['TR'],
+                    'kits_pedido_id' => $this->request->data['Entrega']['kits_pedido_id']
+                );
+            }
+        } else {
+            foreach ($this->request->data['Placa'] as $placa) {
+                $this->Entrega->Pedido->KitsPedido->id = $placa['id'];
+                $this->Entrega->Pedido->KitsPedido->saveField('autorizacao', $placa['autorizacao']);
+                $this->Entrega->Pedido->KitsPedido->saveField('renavan', $placa['renavan']);
+                $this->Entrega->Pedido->KitsPedido->saveField('entregue', 1);
+
+                if (array_key_exists('DT', $this->request->data['Codigo'][$placa['id']])) {
+                    $dCodigo['Codigo'][] = array(
+                        'codigo_id' => $this->request->data['Codigo'][$placa['id']]['DT'],
+                        'kits_pedido_id' => $placa['id']
+                    );
+                }
+
+                if (array_key_exists('TR', $this->request->data['Codigo'][$placa['id']])) {
+                    $dCodigo['Codigo'][] = array(
+                        'codigo_id' => $this->request->data['Codigo'][$placa['id']]['TR'],
+                        'kits_pedido_id' => $placa['id']
+                    );
+                }
+            }
+        }
+
+        if($this->request->data['Entrega']['situacao'] == 1){
+            $this->Entrega->create();
+            $this->Entrega->save($this->request->data);
+        }
+
+        $this->CodigosKitsPedido->saveAll($dCodigo['Codigo']);
+
+        $this->set('data', $this->request->data);
+        $this->set('_serialize', 'data');
+    }
+
+    public function baixarLote() {
+        $this->viewClass = 'Json';
+
+        foreach ($this->request->data['Placa'] as $placa) {
+            $this->Entrega->Pedido->KitsPedido->id = $placa['id'];
+            $this->Entrega->Pedido->KitsPedido->saveField('entregue', 1);
+
+            if (array_key_exists('DT', $this->request->data['Codigo'][$placa['id']])) {
+                $dCodigo['Codigo'][] = array(
+                    'codigo_id' => $this->request->data['Codigo'][$placa['id']]['DT'],
+                    'kits_pedido_id' => $placa['id']
+                );
+            }
+
+            if (array_key_exists('TR', $this->request->data['Codigo'][$placa['id']])) {
+                $dCodigo['Codigo'][] = array(
+                    'codigo_id' => $this->request->data['Codigo'][$placa['id']]['TR'],
+                    'kits_pedido_id' => $placa['id']
+                );
+            }
+        }
+
+        $this->Entrega->create();
+        $this->Entrega->save($this->request->data);
+
+        $this->CodigosKitsPedido->saveAll($dCodigo['Codigo']);
+
+        $this->set('data', $dCodigo);
+        $this->set('_serialize', 'data');
+    }
+
+    public function pesquisarCodigo() {
+        $this->viewClass = 'Json';
+
+        $this->request->query['codigo'] = str_replace('*', '', $this->request->query['codigo']);
+        $data = $this->Codigo->find('first', array(
+            'conditions' => array('Codigo.codigo' => $this->request->query['codigo']),
+            'fields' => array('id', 'codigo'),
+            'contain' => array(
+                'KitsPedido',
+            )
+        ));
+        if ($data == array()) {
+            $data = array(
+                'retorno' => TRUE,
+                'msg' => 'Este código ainda não foi cadastrado no sistema!'
+            );
+        } else {
+            $data['retorno'] = FALSE;
+
+            $codigo = $this->request->query['codigo'];
+            $produto = $this->request->query['produto'];
+
+            if ($data['KitsPedido'] != array()) {
+                $data = array(
+                    'data' => $data,
+                    'retorno' => TRUE,
+                    'msg' => 'Este código já esta cadastrado em outra placa!'
+                );
+            }
+
+            if ($codigo[4] != $produto[0]) {
+                $data = array(
+                    'retorno' => TRUE,
+                    'msg' => $produto[0] == 1 ? 'Este código não se refere a uma placa DIANTEIRA' : 'Este código não se refere a uma placa TRASEIRA'
+                );
+            }
+
+            if ($codigo[5] != $produto[1]) {
+                $data = array(
+                    'retorno' => TRUE,
+                    'msg' => $produto[1] == 1 ? 'Este código não se refere a uma placa de ALUMINIO' : 'Este código não se refere a uma placa de AÇO'
+                );
+            }
+
+            $marca = array(
+                1 => 'Avery',
+                2 => '3M',
+                3 => '3D'
+            );
+            if ($codigo[6] != $produto[2]) {
+                $data = array(
+                    'retorno' => TRUE,
+                    'msg' => 'Este código não se refere a uma placa ' . $marca[$produto[2]]
+                );
+            }
+
+            $cor = array(
+                1 => 'Cinza',
+                2 => 'Vermelha',
+                3 => 'Branca',
+                4 => 'Azul',
+                5 => 'Verde',
+                6 => 'Preta'
+            );
+            if ($codigo[7] != $produto[3]) {
+                $data = array(
+                    'retorno' => TRUE,
+                    'msg' => 'Este código não se refere a uma placa ' . $cor[$produto[3]]
+                );
+            }
+
+            $tamanho = array(
+                1 => '40x13',
+                2 => '20x17',
+                3 => '34x13',
+                4 => '36x13'
+            );
+            if ($codigo[8] != $produto[4]) {
+                $data = array(
+                    'retorno' => TRUE,
+                    'msg' => 'Este código não se refere a uma placa ' . $tamanho[$produto[4]]
+                );
+            }
+        }
+        $this->set('data', $data);
+        $this->set('_serialize', 'data');
+    }
+
+    public function pesquisarLote() {
+        $this->viewClass = 'Json';
+
+        if ($this->request->query['placa'] != '') {
+            $pedido = $this->Entrega->KitsPedido->find('first', array('conditions' => array('KitsPedido.placa' => $this->request->query['placa']), 'fields' => 'pedido_id', 'recursive' => -1));
+            $this->request->query['pedido'] = $pedido['KitsPedido']['pedido_id'];
+        }
+
+        $data = $this->Entrega->Pedido->find('first', array(
+            'conditions' => array('Pedido.id' => $this->request->query['pedido']),
+            'fields' => array('id', 'observacao', 'tipo', 'unidade_id'),
+            'contain' => array(
+                'Cliente' => array('fields' => array('nome')),
+                'KitsPedido' => array(
+                    'Codigo' => array('fields' => array('codigo')),
+                    'Kit' => array('fields' => 'nome', 'tipo', 'id', 'codigo'),
+                    'fields' => array('id', 'kit_id', 'placa', 'tarjeta', 'renavan', 'autorizacao', 'entregue', 'paga', 'observacao')
+                ),
+                'Entrega' => array('fields' => array('observacao'))
+            ),
+        ));
+
+        $this->set('data', $data);
+        $this->set('_serialize', 'data');
+    }
+
+    public function table() {
+        $this->layout = 'ajax';
+        $producao = $this->Entrega->KitsPedido->find('all', array(
+            'conditions' => array('producao' => 1, 'entregue' => 0),
+            'fields' => array('id', 'placa', 'tarjeta', 'pedido_id'),
+            'contain' => array(
+                'Pedido',
+                'Kit' => array(
+                    'fields' => 'nome'
+                ),
+            )
+        ));
+        foreach ($producao as $key => $pr){
+            $pro[$pr['Pedido']['id']][$key]['KitsPedido'] =  $pr['KitsPedido'];
+            $pro[$pr['Pedido']['id']][$key]['KitsPedido']['kit'] =  $pr['Kit']['nome'];
+        }
+//        debug($producao);
+//        debug($pro);
+        
+        $data['Producao'] = $pro;
+        $data['Count'] = count($producao);
+        $this->set('data', $data);
+    }
+
+}

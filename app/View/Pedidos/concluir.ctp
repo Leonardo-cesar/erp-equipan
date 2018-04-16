@@ -1,0 +1,1 @@
+<script language= "JavaScript">location.href="<?php echo $this->Html->url('/') ?>pedidos/imprimir/<?php echo $pedido ?>"</script>

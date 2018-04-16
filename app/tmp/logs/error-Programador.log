@@ -1,0 +1,2095 @@
+2014-10-30 13:53:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/css/bootstrap.css.map
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-30 13:54:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/css/bootstrap.css.map
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-30 13:57:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/css/bootstrap.css.map
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-05 11:36:43 Error: [NotFoundException] Not Found
+Request URL: /erp/sistema/niveis/index/page:3
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate(NULL, Array, Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\NiveisController.php(33): Controller->paginate()
+#2 [internal function]: NiveisController->index()
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(NiveisController), Array)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(NiveisController), Object(CakeRequest))
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-11-05 13:40:43 Error: Fatal Error (1): Call to undefined function d() in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Niveis\view.ctp, line 14]
+2014-11-05 13:40:43 Error: [FatalErrorException] Call to undefined function d()
+Request URL: /erp/sistema/niveis/view/1
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Leonar...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\Users\\Leonar...', 14, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\Users\\Leonar...', 14, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-05 13:42:18 Error: Fatal Error (4): syntax error, unexpected 'date' (T_STRING), expecting ',' or ';' in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Niveis\view.ctp, line 18]
+2014-11-05 13:42:18 Error: [FatalErrorException] syntax error, unexpected 'date' (T_STRING), expecting ',' or ';'
+Request URL: /erp/sistema/niveis/view/1
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 18, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 18, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-14 11:45:52 Error: Fatal Error (4): syntax error, unexpected ':' in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Unidades\index.ctp, line 17]
+2014-11-14 11:45:52 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /erp/sistema/unidades
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 17, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 17, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-14 11:49:53 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\UnidadesController.php, line 60]
+2014-11-14 11:49:53 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/unidades/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 60, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 60, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-14 11:50:08 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\UnidadesController.php, line 60]
+2014-11-14 11:50:08 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/unidades/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 60, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 60, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-14 11:50:18 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\UnidadesController.php, line 60]
+2014-11-14 11:50:18 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/unidades/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 60, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 60, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-14 12:30:44 Error: Fatal Error (4): syntax error, unexpected 'as' (T_AS) in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Unidades\view.ctp, line 18]
+2014-11-14 12:30:44 Error: [FatalErrorException] syntax error, unexpected 'as' (T_AS)
+Request URL: /erp/sistema/unidades/view/1
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 18, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 18, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-14 12:33:31 Error: [NotFoundException] Not Found
+Request URL: /erp/sistema/niveis/index/page:2
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate(NULL, Array, Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\NiveisController.php(32): Controller->paginate()
+#2 [internal function]: NiveisController->index()
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(NiveisController), Array)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(NiveisController), Object(CakeRequest))
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-11-14 13:37:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'SetoresUsuario.setore_id' in 'on clause'
+Request URL: /erp/sistema/setores/edit/1
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Usuario...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Usuario...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1441): DboSource->fetchAll('SELECT `Usuario...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1292): DboSource->_fetchHasAndBelongsToMany(Object(Setore), 'SELECT `Usuario...', Array, 'Usuario')
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Setore), Object(Usuario), 'hasAndBelongsTo...', 'Usuario', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Setore), Array)
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\SetoresController.php(83): Model->find('first', Array)
+#9 [internal function]: SetoresController->edit('1')
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SetoresController), Array)
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SetoresController), Object(CakeRequest))
+#13 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-11-14 13:38:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'SetoresUsuario.setore_id' in 'on clause'
+Request URL: /erp/sistema/setores/edit/1
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Usuario...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Usuario...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1441): DboSource->fetchAll('SELECT `Usuario...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1292): DboSource->_fetchHasAndBelongsToMany(Object(Setore), 'SELECT `Usuario...', Array, 'Usuario')
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Setore), Object(Usuario), 'hasAndBelongsTo...', 'Usuario', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Setore), Array)
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\SetoresController.php(83): Model->find('first', Array)
+#9 [internal function]: SetoresController->edit('1')
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SetoresController), Array)
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SetoresController), Object(CakeRequest))
+#13 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-11-14 14:02:27 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/usuarios
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-14 14:08:45 Error: [MissingViewException] View file "C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Usuarios\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\Leonardo\\OneDrive\\erp\\sistema\\app\\View\\Usuarios\\index.ctp',
+)
+Request URL: /erp/sistema/usuarios
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-14 14:09:10 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Usuarios\index.ctp, line 31]
+2014-11-14 14:09:10 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /erp/sistema/usuarios
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 31, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 31, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-18 12:53:38 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 50664975 bytes) in [C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Utility\Debugger.php, line 610]
+2014-11-18 12:53:38 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 50664975 bytes)
+Request URL: /erp/sistema/
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', 'C:\\Users\\Leonar...', 610)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', 'C:\\Users\\Leonar...', 610, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', 'C:\\Users\\Leonar...', 610, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-18 12:54:08 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 50664975 bytes) in [C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Utility\Debugger.php, line 610]
+2014-11-18 12:54:08 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 50664975 bytes)
+Request URL: /erp/sistema/
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', 'C:\\Users\\Leonar...', 610)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', 'C:\\Users\\Leonar...', 610, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', 'C:\\Users\\Leonar...', 610, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-18 14:27:00 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\UsuariosController.php, line 71]
+2014-11-18 14:27:00 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/usuarios/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 71, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 71, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-18 14:27:39 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'user\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /erp/sistema/usuarios/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3524): ConnectionManager::getDataSource('default')
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3551): Model->setSource('nivels')
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1461): Model->schema()
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1448): Model->hasField('title', false)
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(888): Model->hasField(Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3114): Model->__get('displayField')
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2979): Model->_findList('before', Array)
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2914): Model->buildQuery('list', Array)
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\UsuariosController.php(71): Model->find('list')
+#13 [internal function]: UsuariosController->add()
+#14 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#15 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#16 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#17 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2014-11-18 14:27:50 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\UsuariosController.php, line 71]
+2014-11-18 14:27:50 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/usuarios/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 71, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 71, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-18 14:28:04 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'user\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /erp/sistema/usuarios/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3524): ConnectionManager::getDataSource('default')
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3551): Model->setSource('nivels')
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1461): Model->schema()
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1448): Model->hasField('title', false)
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(888): Model->hasField(Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3114): Model->__get('displayField')
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2979): Model->_findList('before', Array)
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2914): Model->buildQuery('list', Array)
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\UsuariosController.php(71): Model->find('list')
+#13 [internal function]: UsuariosController->add()
+#14 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#15 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#16 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#17 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2014-11-18 14:28:42 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'user\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /erp/sistema/usuarios
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3524): ConnectionManager::getDataSource('default')
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3551): Model->setSource('nivels')
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1128): Model->getDataSource()
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Usuario), Array)
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\UsuariosController.php(33): PaginatorComponent->paginate()
+#10 [internal function]: UsuariosController->index()
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#14 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-18 14:29:14 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'user\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /erp/sistema/usuarios
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3524): ConnectionManager::getDataSource('default')
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3551): Model->setSource('nivels')
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1128): Model->getDataSource()
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Usuario), Array)
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\UsuariosController.php(33): PaginatorComponent->paginate()
+#10 [internal function]: UsuariosController->index()
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#14 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-18 14:29:33 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'user\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /erp/sistema/usuarios
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3524): ConnectionManager::getDataSource('default')
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3551): Model->setSource('nivels')
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1128): Model->getDataSource()
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Usuario), Array)
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\UsuariosController.php(33): PaginatorComponent->paginate()
+#10 [internal function]: UsuariosController->index()
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#14 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-18 14:29:44 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'user\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /erp/sistema/usuarios
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3524): ConnectionManager::getDataSource('default')
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3551): Model->setSource('nivels')
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1128): Model->getDataSource()
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Usuario), Array)
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\UsuariosController.php(33): PaginatorComponent->paginate()
+#10 [internal function]: UsuariosController->index()
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#14 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-18 14:31:12 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'user\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /erp/sistema/usuarios
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3524): ConnectionManager::getDataSource('default')
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3551): Model->setSource('usuarios')
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\UsuariosController.php(33): PaginatorComponent->paginate()
+#9 [internal function]: UsuariosController->index()
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#13 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-11-18 14:32:50 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\UsuariosController.php, line 71]
+2014-11-18 14:32:50 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/usuarios/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 71, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 71, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-18 14:49:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'SetoresUsuario.setore_id' in 'on clause'
+Request URL: /erp/sistema/
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Setore`...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Setore`...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1441): DboSource->fetchAll('SELECT `Setore`...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1292): DboSource->_fetchHasAndBelongsToMany(Object(Usuario), 'SELECT `Setore`...', Array, 'Setore')
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Usuario), Object(Setore), 'hasAndBelongsTo...', 'Setore', Array, Array, true, Array, 1, Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Usuario), Array)
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\UsuariosController.php(33): PaginatorComponent->paginate()
+#10 [internal function]: UsuariosController->index()
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#14 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-18 14:50:05 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'user\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /erp/sistema/
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3524): ConnectionManager::getDataSource('default')
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3551): Model->setSource('setors')
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1128): Model->getDataSource()
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Usuario), Array)
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\UsuariosController.php(33): PaginatorComponent->paginate()
+#10 [internal function]: UsuariosController->index()
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#14 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-19 12:23:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Unidade.recursive' in 'field list'
+Request URL: /erp/sistema/
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Unidade...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Unidade...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1441): DboSource->fetchAll('SELECT `Unidade...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1292): DboSource->_fetchHasAndBelongsToMany(Object(Usuario), 'SELECT `Unidade...', Array, 'Unidade')
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Usuario), Object(Unidade), 'hasAndBelongsTo...', 'Unidade', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Usuario), Array)
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\UsuariosController.php(41): PaginatorComponent->paginate()
+#10 [internal function]: UsuariosController->index()
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#14 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-19 12:26:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Unidade.recursive' in 'field list'
+Request URL: /erp/sistema/
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Unidade...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Unidade...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1441): DboSource->fetchAll('SELECT `Unidade...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1292): DboSource->_fetchHasAndBelongsToMany(Object(Usuario), 'SELECT `Unidade...', Array, 'Unidade')
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Usuario), Object(Unidade), 'hasAndBelongsTo...', 'Unidade', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Usuario), Array)
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\UsuariosController.php(41): PaginatorComponent->paginate()
+#10 [internal function]: UsuariosController->index()
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#14 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-19 13:05:32 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\UsuariosController.php, line 56]
+2014-11-19 13:05:32 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /erp/sistema/usuarios/view/1
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 56, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 56, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-19 13:10:43 Error: Fatal Error (1): Call to undefined function d() in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Usuarios\view.ctp, line 22]
+2014-11-19 13:10:43 Error: [FatalErrorException] Call to undefined function d()
+Request URL: /erp/sistema/usuarios/view/2
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Leonar...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\Users\\Leonar...', 22, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\Users\\Leonar...', 22, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-21 17:13:15 Error: [MissingControllerException] Controller class KistsController could not be found.
+Exception Attributes: array (
+  'class' => 'KistsController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/kists
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 17:13:37 Error: [MissingControllerException] Controller class KistsController could not be found.
+Exception Attributes: array (
+  'class' => 'KistsController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/kists
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 18:05:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/css/select2.png
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 18:05:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/css/select2.png
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 18:05:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/css/select2-spinner.gif
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 18:07:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/css/select2.png
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 18:08:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/css/select2.png
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 18:08:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/css/select2.png
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 18:08:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/css/select2.png
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 18:08:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/css/select2-spinner.gif
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 18:09:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/css/select2.png
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 18:09:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/css/select2.png
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 18:09:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/css/select2-spinner.gif
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-27 17:07:52 Error: [MissingActionException] Action KitsController::javascript;() could not be found.
+Exception Attributes: array (
+  'controller' => 'KitsController',
+  'action' => 'javascript;',
+)
+Request URL: /erp/sistema/kits/javascript;
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(KitsController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-27 17:23:44 Error: [MissingActionException] Action KitsController::javascript;() could not be found.
+Exception Attributes: array (
+  'controller' => 'KitsController',
+  'action' => 'javascript;',
+)
+Request URL: /erp/sistema/kits/javascript;
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(KitsController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-01 11:27:19 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PrecosController.php, line 27]
+2014-12-01 11:27:19 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/precos
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 27, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 27, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 13:55:34 Error: Fatal Error (4): syntax error, unexpected '?' in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Precos\index.ctp, line 13]
+2014-12-01 13:55:34 Error: [FatalErrorException] syntax error, unexpected '?'
+Request URL: /erp/sistema/precos
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 13, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 13, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 14:24:07 Error: [MissingActionException] Action PrecosController::selecionar() could not be found.
+Exception Attributes: array (
+  'controller' => 'PrecosController',
+  'action' => 'selecionar',
+)
+Request URL: /erp/sistema/precos/selecionar?produto=1&unidade=2
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PrecosController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-01 14:24:25 Error: Fatal Error (1): Call to undefined function query() in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PrecosController.php, line 78]
+2014-12-01 14:24:25 Error: [FatalErrorException] Call to undefined function query()
+Request URL: /erp/sistema/precos/selecionar?produto=1&unidade=4
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Leonar...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\Users\\Leonar...', 78, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\Users\\Leonar...', 78, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 14:24:46 Error: Fatal Error (1): Call to undefined function query() in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PrecosController.php, line 78]
+2014-12-01 14:24:46 Error: [FatalErrorException] Call to undefined function query()
+Request URL: /erp/sistema/precos/selecionar?produto=1&unidade=4
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Leonar...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\Users\\Leonar...', 78, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\Users\\Leonar...', 78, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 14:29:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Preco.protudo_id' in 'where clause'
+Request URL: /erp/sistema/precos/selecionar?produto=1&unidade=1
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Preco`....', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Preco`....', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Preco`....', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Preco), Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PrecosController.php(78): Model->find('all', Array)
+#7 [internal function]: PrecosController->selecionar()
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrecosController), Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PrecosController), Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-01 14:30:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Preco.protudo_id' in 'where clause'
+Request URL: /erp/sistema/precos/selecionar?produto=1&unidade=1
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Preco`....', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Preco`....', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Preco`....', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Preco), Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PrecosController.php(78): Model->find('all', Array)
+#7 [internal function]: PrecosController->selecionar()
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrecosController), Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PrecosController), Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-01 14:33:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Preco.preco' in 'field list'
+Request URL: /erp/sistema/precos/selecionar?produto=1&unidade=1
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Preco`....', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Preco`....', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Preco`....', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Preco), Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('list', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PrecosController.php(79): Model->find('list', Array)
+#7 [internal function]: PrecosController->selecionar()
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrecosController), Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PrecosController), Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-01 14:34:00 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Preco.preco' in 'field list'
+Request URL: /erp/sistema/precos/selecionar?produto=1&unidade=1
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Preco`....', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Preco`....', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Preco`....', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Preco), Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('list', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PrecosController.php(79): Model->find('list', Array)
+#7 [internal function]: PrecosController->selecionar()
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrecosController), Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PrecosController), Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-02 11:49:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Produto.unidade_id' in 'on clause'
+Request URL: /erp/sistema/produtos
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Produto...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Produto...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Produto...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Produto), Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\ProdutosController.php(28): PaginatorComponent->paginate()
+#8 [internal function]: ProdutosController->index()
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosController), Array)
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProdutosController), Object(CakeRequest))
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-02 13:30:37 Error: Fatal Error (1): Call to a member function deleteAll() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PrecosController.php, line 57]
+2014-12-02 13:30:37 Error: [FatalErrorException] Call to a member function deleteAll() on a non-object
+Request URL: /erp/sistema/precos/add/?_method=POST&data%5BPreco%5D%5Bunidade_id%5D=1&data%5BPreco%5D%5Bkit_id%5D=1&data%5BCategoria%5D%5B1%5D=20%2C00&data%5BCategoria%5D%5B3%5D=10%2C00
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 57)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 57, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 57, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 13:30:54 Error: Fatal Error (1): Call to a member function deleteAll() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PrecosController.php, line 57]
+2014-12-02 13:30:54 Error: [FatalErrorException] Call to a member function deleteAll() on a non-object
+Request URL: /erp/sistema/precos/add/?_method=POST&data%5BPreco%5D%5Buni%E2%80%A6ategoria%5D%5B1%5D=20%2C00&data%5BCategoria%5D%5B3%5D=10%2C00
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 57)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 57, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 57, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 13:33:43 Error: [MissingActionException] Action PrecosController::selecionar() could not be found.
+Exception Attributes: array (
+  'controller' => 'PrecosController',
+  'action' => 'selecionar',
+)
+Request URL: /erp/sistema/precos/selecionar?produto=1&unidade=2
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PrecosController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-02 13:34:07 Error: [MissingActionException] Action PrecosController::selecionar() could not be found.
+Exception Attributes: array (
+  'controller' => 'PrecosController',
+  'action' => 'selecionar',
+)
+Request URL: /erp/sistema/precos/selecionar?produto=1&unidade=1
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PrecosController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-02 14:17:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Produto.unidade_id' in 'on clause'
+Request URL: /erp/sistema/produtos
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Produto...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Produto...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Produto...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Produto), Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\ProdutosController.php(28): PaginatorComponent->paginate()
+#8 [internal function]: ProdutosController->index()
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosController), Array)
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProdutosController), Object(CakeRequest))
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-05 13:48:51 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\ClientesController.php, line 60]
+2014-12-05 13:48:51 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 60, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 60, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 14:00:34 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\ClientesController.php, line 60]
+2014-12-05 14:00:34 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 60, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 60, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 14:01:26 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\ClientesController.php, line 61]
+2014-12-05 14:01:26 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 61, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 61, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 18:29:49 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'erp.precos' doesn't exist
+Request URL: /erp/sistema/precos
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\Database\Mysql.php(339): DboSource->_execute('SHOW FULL COLUM...')
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1372): Mysql->describe(Object(Preco))
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Preco', 'fields')
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Precos\index.ctp(2): FormHelper->create('Preco', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\View.php(948): include('C:\\Users\\Leonar...')
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\View.php(910): View->_evaluate('C:\\Users\\Leonar...', Array)
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\View.php(471): View->_render('C:\\Users\\Leonar...')
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PrecosController), Object(CakeRequest))
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-12 11:45:31 Error: [MissingActionException] Action UsuariosController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'logout',
+)
+Request URL: /erp/sistema/usuarios/logout
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-12 12:32:03 Error: [MissingViewException] View file "C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\liberar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\Leonardo\\OneDrive\\erp\\sistema\\app\\View\\Clientes\\liberar.ctp',
+)
+Request URL: /erp/sistema/clientes/liberar/?_method=POST&data%5BLiberar%5D%5Busuario%5D=leo&data%5BLiberar%5D%5Bsenha%5D=190172
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-12 12:32:27 Error: [MissingViewException] View file "C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\liberar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\Leonardo\\OneDrive\\erp\\sistema\\app\\View\\Clientes\\liberar.ctp',
+)
+Request URL: /erp/sistema/clientes/liberar/?_method=POST&data%5BLiberar%5D%5Busuario%5D=leo&data%5BLiberar%5D%5Bsenha%5D=190172
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-15 14:04:49 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\add.ctp, line 28]
+2014-12-15 14:04:50 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 28, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 28, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-15 15:20:17 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\ClientesController.php, line 105]
+2014-12-15 15:20:17 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/clientes/edit/5
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 105)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 105, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 105, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-15 17:33:18 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\ClientesController.php, line 105]
+2014-12-15 17:33:18 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/clientes/edit/5
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 105)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 105, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 105, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 11:46:03 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\ClientesController.php, line 105]
+2014-12-16 11:46:03 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/clientes/edit/5
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 105)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 105, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 105, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 11:50:23 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\ClientesController.php, line 105]
+2014-12-16 11:50:23 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/clientes/edit/5
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 105)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 105, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 105, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 12:12:26 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\add.ctp, line 8]
+2014-12-16 12:12:26 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 12:13:56 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\add.ctp, line 8]
+2014-12-16 12:13:56 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 12:15:48 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\add.ctp, line 8]
+2014-12-16 12:15:48 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 12:16:53 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\add.ctp, line 8]
+2014-12-16 12:16:53 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 12:17:18 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\add.ctp, line 8]
+2014-12-16 12:17:18 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 12:17:29 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\add.ctp, line 8]
+2014-12-16 12:17:29 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 12:17:53 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\add.ctp, line 8]
+2014-12-16 12:17:53 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 12:18:01 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\add.ctp, line 8]
+2014-12-16 12:18:01 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 12:18:09 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\add.ctp, line 8]
+2014-12-16 12:18:09 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 12:18:29 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\add.ctp, line 8]
+2014-12-16 12:18:29 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 12:21:53 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\add.ctp, line 8]
+2014-12-16 12:21:53 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 8, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 12:26:09 Error: Fatal Error (64): Can't use method return value in write context in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\add.ctp, line 8]
+2014-12-16 12:26:09 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\\Users\\Leonar...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\\Users\\Leonar...', 8, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\\Users\\Leonar...', 8, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 12:26:24 Error: Fatal Error (64): Can't use method return value in write context in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\add.ctp, line 8]
+2014-12-16 12:26:24 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\\Users\\Leonar...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\\Users\\Leonar...', 8, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\\Users\\Leonar...', 8, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 12:26:38 Error: Fatal Error (64): Can't use method return value in write context in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\add.ctp, line 8]
+2014-12-16 12:26:38 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\\Users\\Leonar...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\\Users\\Leonar...', 8, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\\Users\\Leonar...', 8, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 12:28:00 Error: Fatal Error (64): Can't use method return value in write context in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\add.ctp, line 8]
+2014-12-16 12:28:00 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /erp/sistema/clientes/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\\Users\\Leonar...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\\Users\\Leonar...', 8, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\\Users\\Leonar...', 8, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 13:14:12 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\edit.ctp, line 129]
+2014-12-16 13:14:12 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /erp/sistema/clientes/edit/4
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 129)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 129, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 129, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 13:16:02 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Clientes\edit.ctp, line 129]
+2014-12-16 13:16:02 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /erp/sistema/clientes/edit/4
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 129)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 129, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 129, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-19 14:31:05 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\ProdutosController.php, line 61]
+2014-12-19 14:31:06 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/produtos/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 61, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 61, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-19 14:32:32 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\ProdutosController.php, line 85]
+2014-12-19 14:32:32 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/produtos/edit/1
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 85, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 85, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-19 14:54:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Estoque.pedido_id' in 'on clause'
+Request URL: /erp/sistema/estoques
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Estoque...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Estoque...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Estoque...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Estoque), Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\EstoquesController.php(28): PaginatorComponent->paginate()
+#8 [internal function]: EstoquesController->index()
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EstoquesController), Array)
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(EstoquesController), Object(CakeRequest))
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-19 17:22:06 Error: [MissingControllerException] Controller class LogEstoqueController could not be found.
+Exception Attributes: array (
+  'class' => 'LogEstoqueController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/logEstoque/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-19 17:22:30 Error: [MissingControllerException] Controller class LogEstoqueController could not be found.
+Exception Attributes: array (
+  'class' => 'LogEstoqueController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/logEstoque/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-19 18:14:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Estoque.pedido_id' in 'on clause'
+Request URL: /erp/sistema/logEstoques/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Estoque...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Estoque...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Estoque...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Estoque), Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\LogEstoquesController.php(53): Model->find('first', Array)
+#7 [internal function]: LogEstoquesController->add()
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LogEstoquesController), Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LogEstoquesController), Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-19 18:24:54 Error: Fatal Error (1): Call to a member function saveField() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\LogEstoquesController.php, line 59]
+2014-12-19 18:24:54 Error: [FatalErrorException] Call to a member function saveField() on a non-object
+Request URL: /erp/sistema/logEstoques/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 59)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 59, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 59, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-19 18:26:46 Error: Fatal Error (1): Call to a member function saveField() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\LogEstoquesController.php, line 59]
+2014-12-19 18:26:46 Error: [FatalErrorException] Call to a member function saveField() on a non-object
+Request URL: /erp/sistema/logEstoques/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 59)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 59, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 59, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-19 19:00:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Estoque.unidade_id' in 'where clause'
+Request URL: /erp/sistema/logEstoques/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Kit`.`i...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Kit`.`i...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Kit`.`i...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Kit), Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\LogEstoquesController.php(54): Model->find('first', Array)
+#7 [internal function]: LogEstoquesController->add()
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LogEstoquesController), Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LogEstoquesController), Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-26 12:36:43 Error: [MissingActionException] Action ClientesController::lista() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lista',
+)
+Request URL: /erp/sistema/clientes/lista/?term=a
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-26 12:36:44 Error: [MissingActionException] Action ClientesController::lista() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lista',
+)
+Request URL: /erp/sistema/clientes/lista/?term=as
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-26 12:43:51 Error: [MissingActionException] Action ClientesController::listar() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'listar',
+)
+Request URL: /erp/sistema/clientes/listar
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-26 12:44:29 Error: [MissingActionException] Action ClientesController::listar() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'listar',
+)
+Request URL: /erp/sistema/clientes/listar/?term=l
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-26 12:44:40 Error: [MissingActionException] Action ClientesController::listar() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'listar',
+)
+Request URL: /erp/sistema/clientes/listar/?term=l
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-26 12:45:45 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% 'l%'' at line 1
+Request URL: /erp/sistema/clientes/lista?term=l
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Cliente...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Cliente...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Cliente...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Cliente), Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('list', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\ClientesController.php(171): Model->find('list', Array)
+#7 [internal function]: ClientesController->lista()
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-26 12:54:29 Error: [MissingActionException] Action ClientesController::lissta() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lissta',
+)
+Request URL: /erp/sistema/clientes/lissta?term=a
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-26 12:54:38 Error: [MissingActionException] Action ClientesController::lissta() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lissta',
+)
+Request URL: /erp/sistema/clientes/lissta?term=a
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-26 13:21:23 Error: [MissingActionException] Action ClientesController::lissta() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lissta',
+)
+Request URL: /erp/sistema/clientes/lissta?term=l
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-26 13:21:30 Error: [MissingActionException] Action ClientesController::lissta() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lissta',
+)
+Request URL: /erp/sistema/clientes/lissta?term=a
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-05 17:31:18 Error: Fatal Error (64): Cannot redeclare PedidosController::liberar() in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PedidosController.php, line 134]
+2015-01-05 17:31:18 Error: [FatalErrorException] Cannot redeclare PedidosController::liberar()
+Request URL: /erp/sistema/pedidos/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\Users\\Leonar...', 134)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\Users\\Leonar...', 134, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\Users\\Leonar...', 134, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-05 17:31:55 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PedidosController.php, line 128]
+2015-01-05 17:31:55 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/pedidos/liberar/?_method=POST&data%5BLiberar%5D%5Busuario%5D=leo&data%5BLiberar%5D%5Bsenha%5D=1bcecfb830aea265e445e83fc2d96bec1a3243eb
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 128)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 128, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 128, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-06 11:24:13 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+',
+  'enabled' => true,
+)
+Request URL: /erp/sistema/usuarios/login
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3524): ConnectionManager::getDataSource('test')
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1136): Model->setDataSource('test')
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3551): Model->setSource('usuarios')
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Usuario', 'fields')
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Usuarios\login.ctp(4): FormHelper->create('Usuario', Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\View.php(948): include('C:\\Users\\Leonar...')
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\View.php(910): View->_evaluate('C:\\Users\\Leonar...', Array)
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\View.php(471): View->_render('C:\\Users\\Leonar...')
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#15 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-01-07 12:01:08 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PedidosController.php, line 73]
+2015-01-07 12:01:08 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/pedidos/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 73)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 73, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 73, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-13 14:07:49 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`erp2`.`kits_pedidos`, CONSTRAINT `fk_kits_has_pedidos_pedidos1` FOREIGN KEY (`pedido_id`) REFERENCES `pedidos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /erp/sistema/pedidos/cadastrar
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1854): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2265): Model->save(Array, Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2193): Model->saveMany(Array, Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PedidosController.php(104): Model->saveAll(Array)
+#7 [internal function]: PedidosController->cadastrar()
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosController), Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosController), Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-14 12:05:07 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PedidosController.php, line 107]
+2015-01-14 12:05:07 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/pedidos/cadastrar
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 107)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 107, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 107, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-14 12:06:09 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PedidosController.php, line 107]
+2015-01-14 12:06:09 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/pedidos/cadastrar
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 107)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 107, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 107, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-14 12:06:27 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PedidosController.php, line 116]
+2015-01-14 12:06:27 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/pedidos/cadastrar
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 116)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 116, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 116, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-19 11:47:41 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PedidosController.php, line 116]
+2015-01-19 11:47:41 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/pedidos/cadastrar
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 116)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 116, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 116, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-19 11:48:44 Error: Fatal Error (1): Call to a member function saveAll() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PedidosController.php, line 131]
+2015-01-19 11:48:44 Error: [FatalErrorException] Call to a member function saveAll() on a non-object
+Request URL: /erp/sistema/pedidos/cadastrar
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 131)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 131, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 131, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-19 11:56:04 Error: Fatal Error (1): Call to a member function saveAll() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PedidosController.php, line 132]
+2015-01-19 11:56:04 Error: [FatalErrorException] Call to a member function saveAll() on a non-object
+Request URL: /erp/sistema/pedidos/cadastrar
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 132)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 132, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 132, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-19 11:57:57 Error: Fatal Error (1): Call to a member function saveAll() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PedidosController.php, line 132]
+2015-01-19 11:57:57 Error: [FatalErrorException] Call to a member function saveAll() on a non-object
+Request URL: /erp/sistema/pedidos/cadastrar
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 132)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 132, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 132, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-19 12:56:03 Error: [MissingControllerException] Controller class CaixaController could not be found.
+Exception Attributes: array (
+  'class' => 'CaixaController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/caixa/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-19 12:56:18 Error: [MissingControllerException] Controller class CaixaController could not be found.
+Exception Attributes: array (
+  'class' => 'CaixaController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/caixa/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-20 12:26:39 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous
+Request URL: /erp/sistema/caixas
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Pedido`...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Pedido`...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Pedido`...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Pedido), Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php(28): Model->find('first', Array)
+#7 [internal function]: CaixasController->index()
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CaixasController), Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-20 12:26:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Estoque.pedido_id' in 'field list'
+Request URL: /erp/sistema/caixas
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Estoque...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Estoque...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1418): DboSource->fetchAll('SELECT `Estoque...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1254): DboSource->_fetchHasMany(Object(Pedido), 'SELECT `Estoque...', Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Pedido), Object(Estoque), 'hasMany', 'Estoque', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Pedido), Array)
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php(28): Model->find('first', Array)
+#9 [internal function]: CaixasController->index()
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CaixasController), Array)
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#13 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-01-23 12:13:22 Error: [MissingControllerException] Controller class CaixaController could not be found.
+Exception Attributes: array (
+  'class' => 'CaixaController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/caixa/pesquisar?pedido=11&placa=
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 12:13:41 Error: [MissingControllerException] Controller class CaixaController could not be found.
+Exception Attributes: array (
+  'class' => 'CaixaController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/caixa/pesquisar?pedido=11&placa=
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 13:10:28 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php, line 129]
+2015-01-23 13:10:28 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /erp/sistema/caixas/pesquisar?pedido=11&placa=
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 129)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 129, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 129, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-23 13:10:32 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php, line 129]
+2015-01-23 13:10:32 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /erp/sistema/caixas/pesquisar?pedido=11&placa=
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 129)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Leonar...', 129, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Leonar...', 129, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-23 13:40:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'KitsPedido.contain' in 'field list'
+Request URL: /erp/sistema/caixas/pesquisar?pedido=12&placa=
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `KitsPed...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `KitsPed...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1418): DboSource->fetchAll('SELECT `KitsPed...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1254): DboSource->_fetchHasMany(Object(Pedido), 'SELECT `KitsPed...', Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Pedido), Object(KitsPedido), 'hasMany', 'KitsPedido', Array, Array, true, Array, 1, Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Pedido), Array)
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php(128): Model->find('first', Array)
+#9 [internal function]: CaixasController->pesquisar()
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CaixasController), Array)
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#13 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-01-23 17:09:48 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Cliente.observacao' in 'field list'
+Request URL: /erp/sistema/caixas/pesquisar?pedido=11&placa=
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Pedido`...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Pedido`...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Pedido`...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Pedido), Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php(131): Model->find('first', Array)
+#7 [internal function]: CaixasController->pesquisar()
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CaixasController), Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-23 18:03:52 Error: [MissingControllerException] Controller class T1.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'T1.pngController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/t1.png
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 18:04:06 Error: [MissingControllerException] Controller class Loading.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Loading.gifController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/loading.gif
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 18:04:11 Error: [MissingControllerException] Controller class .loading.gifController could not be found.
+Exception Attributes: array (
+  'class' => '.loading.gifController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/.loading.gif
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 18:04:11 Error: [MissingControllerException] Controller class ..loading.gifController could not be found.
+Exception Attributes: array (
+  'class' => '..loading.gifController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/..loading.gif
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-29 13:04:34 Error: [MissingTableException] Table formas_pagamentos for model FormasPagamento was not found in datasource test.
+Exception Attributes: array (
+  'table' => 'formas_pagamentos',
+  'class' => 'FormasPagamento',
+  'ds' => 'test',
+)
+Request URL: /erp/sistema/caixas
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3551): Model->setSource('formas_pagament...')
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('list', Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php(27): Model->find('list', Array)
+#4 [internal function]: CaixasController->index()
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CaixasController), Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-01-29 17:57:43 Error: Fatal Error (1): Call to a member function saveField() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php, line 84]
+2015-01-29 17:57:43 Error: [FatalErrorException] Call to a member function saveField() on a non-object
+Request URL: /erp/sistema/caixas/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 84)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 84, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 84, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-29 17:58:03 Error: Fatal Error (1): Call to a member function saveField() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php, line 84]
+2015-01-29 17:58:03 Error: [FatalErrorException] Call to a member function saveField() on a non-object
+Request URL: /erp/sistema/caixas/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 84)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 84, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 84, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-27 12:52:48 Error: [MissingActionException] Action CaixasController::pesquisa() could not be found.
+Exception Attributes: array (
+  'controller' => 'CaixasController',
+  'action' => 'pesquisa',
+)
+Request URL: /erp/sistema/caixas/pesquisa?pedido=&placa=fgh-1234
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-27 12:53:52 Error: [MissingActionException] Action CaixasController::pesquisa() could not be found.
+Exception Attributes: array (
+  'controller' => 'CaixasController',
+  'action' => 'pesquisa',
+)
+Request URL: /erp/sistema/caixas/pesquisa?pedido=&placa=fgh-1234
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-27 12:54:04 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php, line 178]
+2015-02-27 12:54:04 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/caixas/pesquisar?pedido=&placa=fgh-1234
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 178)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 178, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 178, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-27 15:11:42 Error: [MissingControllerException] Controller class CaixaasController could not be found.
+Exception Attributes: array (
+  'class' => 'CaixaasController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/caixaas/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-27 15:11:48 Error: [MissingControllerException] Controller class CaixaasController could not be found.
+Exception Attributes: array (
+  'class' => 'CaixaasController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/caixaas/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-27 15:30:01 Error: [MissingViewException] View file "C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Caixas\json\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\Leonardo\\OneDrive\\erp\\sistema\\app\\View\\Caixas\\json\\add.ctp',
+)
+Request URL: /erp/sistema/caixas/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(954): JsonView->render(NULL, NULL)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-27 15:32:14 Error: [MissingViewException] View file "C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Caixas\json\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\Leonardo\\OneDrive\\erp\\sistema\\app\\View\\Caixas\\json\\add.ctp',
+)
+Request URL: /erp/sistema/caixas/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(954): JsonView->render(NULL, NULL)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-27 15:41:14 Error: [MissingViewException] View file "C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Caixas\json\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\Leonardo\\OneDrive\\erp\\sistema\\app\\View\\Caixas\\json\\add.ctp',
+)
+Request URL: /erp/sistema/caixas/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(954): JsonView->render(NULL, NULL)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-27 15:47:26 Error: [MissingViewException] View file "C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Caixas\json\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\Leonardo\\OneDrive\\erp\\sistema\\app\\View\\Caixas\\json\\add.ctp',
+)
+Request URL: /erp/sistema/caixas/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(954): JsonView->render(NULL, NULL)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-27 15:48:17 Error: [MissingViewException] View file "C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Caixas\json\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\Leonardo\\OneDrive\\erp\\sistema\\app\\View\\Caixas\\json\\add.ctp',
+)
+Request URL: /erp/sistema/caixas/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(954): JsonView->render(NULL, NULL)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-27 15:55:50 Error: [MissingViewException] View file "C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Caixas\json\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\Leonardo\\OneDrive\\erp\\sistema\\app\\View\\Caixas\\json\\add.ctp',
+)
+Request URL: /erp/sistema/caixas/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(954): JsonView->render(NULL, NULL)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-27 18:39:00 Error: [MissingTableException] Table formas_pagamentos for model FormasPagamento was not found in datasource test.
+Exception Attributes: array (
+  'table' => 'formas_pagamentos',
+  'class' => 'FormasPagamento',
+  'ds' => 'test',
+)
+Request URL: /erp/sistema/caixas/pesquisar?pedido=11&placa=
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3551): Model->setSource('formas_pagament...')
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(2491): Model->schema()
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1716): DboSource->fields(Object(FormasPagamento), 'FormasPagamento', '')
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1093): DboSource->generateAssociationQuery(Object(Caixa), Object(FormasPagamento), 'belongsTo', 'FormasPagamento', Array, Array, false)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Caixa), Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php(181): Model->find('first', Array)
+#8 [internal function]: CaixasController->pesquisar()
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CaixasController), Array)
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-02-27 18:40:44 Error: [MissingTableException] Table formas_pagamentos for model FormasPagamento was not found in datasource test.
+Exception Attributes: array (
+  'table' => 'formas_pagamentos',
+  'class' => 'FormasPagamento',
+  'ds' => 'test',
+)
+Request URL: /erp/sistema/caixas/pesquisar?pedido=11&placa=
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(3551): Model->setSource('formas_pagament...')
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(2491): Model->schema()
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1716): DboSource->fields(Object(FormasPagamento), 'FormasPagamento', '')
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1093): DboSource->generateAssociationQuery(Object(Caixa), Object(FormasPagamento), 'belongsTo', 'FormasPagamento', Array, Array, false)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Caixa), Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#7 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php(181): Model->find('first', Array)
+#8 [internal function]: CaixasController->pesquisar()
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CaixasController), Array)
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#12 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-02-27 18:50:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Caixa.tipo' in 'field list'
+Request URL: /erp/sistema/caixas/pesquisar?pedido=12&placa=
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Caixa`....', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Caixa`....', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Caixa`....', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Caixa), Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php(184): Model->find('first', Array)
+#7 [internal function]: CaixasController->pesquisar()
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CaixasController), Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-02-27 18:50:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Caixa.tipo' in 'field list'
+Request URL: /erp/sistema/caixas/pesquisar?pedido=11&placa=
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Caixa`....', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Caixa`....', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Caixa`....', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Caixa), Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php(184): Model->find('first', Array)
+#7 [internal function]: CaixasController->pesquisar()
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CaixasController), Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-03-02 12:11:32 Error: [MissingActionException] Action CaixasController::lote() could not be found.
+Exception Attributes: array (
+  'controller' => 'CaixasController',
+  'action' => 'lote',
+)
+Request URL: /erp/sistema/caixas/lote
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-02 13:03:02 Error: [MissingActionException] Action CaixasController::lote() could not be found.
+Exception Attributes: array (
+  'controller' => 'CaixasController',
+  'action' => 'lote',
+)
+Request URL: /erp/sistema/caixas/lote
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-02 14:14:02 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\PedidosController.php, line 56]
+2015-03-02 14:14:02 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/pedidos/add
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 56, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 56, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-02 14:17:38 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'ativo' in where clause is ambiguous
+Request URL: /erp/sistema/caixas/lote
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Cliente...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Cliente...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Cliente...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Cliente), Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php(229): Model->find('all', Array)
+#7 [internal function]: CaixasController->lote()
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CaixasController), Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-03-02 14:26:06 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php, line 238]
+2015-03-02 14:26:06 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /erp/sistema/caixas/lote
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 238)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Leonar...', 238, Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Leonar...', 238, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-03 12:55:32 Error: [MissingViewException] View file "C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Caixas\prazo.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\Leonardo\\OneDrive\\erp\\sistema\\app\\View\\Caixas\\prazo.ctp',
+)
+Request URL: /erp/sistema/caixas/prazo/?_method=POST&data%5BPesquisa%5D%5BdataInicial%5D=01%2F01%2F2015&data%5BPesquisa%5D%5BdataFinal%5D=03%2F03%2F2015&data%5BPesquisa%5D%5Bunidade_id%5D=2&data%5BPesquisa%5D%5Bcliente_id%5D=4
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-03 12:55:39 Error: [MissingViewException] View file "C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Caixas\prazo.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\Leonardo\\OneDrive\\erp\\sistema\\app\\View\\Caixas\\prazo.ctp',
+)
+Request URL: /erp/sistema/caixas/prazo/?_method=POST&data%5BPesquisa%5D%5BdataInicial%5D=01%2F01%2F2015&data%5BPesquisa%5D%5BdataFinal%5D=03%2F03%2F2015&data%5BPesquisa%5D%5Bunidade_id%5D=2&data%5BPesquisa%5D%5Bcliente_id%5D=4
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-05 15:41:43 Error: [MissingControllerException] Controller class EntregasController could not be found.
+Exception Attributes: array (
+  'class' => 'EntregasController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/entregas
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-16 13:01:31 Error: [MissingControllerException] Controller class EntregaController could not be found.
+Exception Attributes: array (
+  'class' => 'EntregaController',
+  'plugin' => NULL,
+)
+Request URL: /erp/sistema/entrega/pesquisar?pedido=14&placa=
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-29 15:43:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Caixa.pedido_id' in 'where clause'
+Request URL: /erp/sistema/caixas/pesquisar?pedido=14&placa=
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `KitsPed...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `KitsPed...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `KitsPed...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(KitsPedido), Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php(195): Model->find('all', Array)
+#7 [internal function]: CaixasController->pesquisar()
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CaixasController), Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-06-29 15:44:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Caixa.pedido_id' in 'where clause'
+Request URL: /erp/sistema/caixas/pesquisar?pedido=14&placa=
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `KitsPed...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `KitsPed...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `KitsPed...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(KitsPedido), Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php(195): Model->find('all', Array)
+#7 [internal function]: CaixasController->pesquisar()
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CaixasController), Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-06-29 15:45:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Caixa.pedido_id' in 'where clause'
+Request URL: /erp/sistema/caixas/pesquisar?pedido=14&placa=
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `KitsPed...', Array)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `KitsPed...', Array, Array)
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `KitsPed...', false)
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2947): DboSource->read(Object(KitsPedido), Array)
+#5 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\Users\Leonardo\OneDrive\erp\sistema\app\Controller\CaixasController.php(195): Model->find('all', Array)
+#7 [internal function]: CaixasController->pesquisar()
+#8 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CaixasController), Array)
+#9 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#11 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-06-29 15:50:31 Error: [MissingViewException] View file "C:\Users\Leonardo\OneDrive\erp\sistema\app\View\Caixas\json\pesquisar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\Leonardo\\OneDrive\\erp\\sistema\\app\\View\\Caixas\\json\\pesquisar.ctp',
+)
+Request URL: /erp/sistema/caixas/pesquisar?pedido=14&placa=
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Controller\Controller.php(954): JsonView->render(NULL, NULL)
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#4 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-07-14 14:49:48 Error: [MissingActionException] Action CaixasController::pequisar() could not be found.
+Exception Attributes: array (
+  'controller' => 'CaixasController',
+  'action' => 'pequisar',
+)
+Request URL: /erp/sistema/caixas/pequisar?pedido=11&placa=
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-14 14:49:54 Error: [MissingActionException] Action CaixasController::pequisar() could not be found.
+Exception Attributes: array (
+  'controller' => 'CaixasController',
+  'action' => 'pequisar',
+)
+Request URL: /erp/sistema/caixas/pequisar?pedido=11&placa=
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-14 15:26:36 Error: [MissingActionException] Action CaixasController::fechamento() could not be found.
+Exception Attributes: array (
+  'controller' => 'CaixasController',
+  'action' => 'fechamento',
+)
+Request URL: /erp/sistema/caixas/fechamento
+Stack Trace:
+#0 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Leonardo\OneDrive\erp\sistema\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CaixasController), Object(CakeRequest))
+#2 C:\Users\Leonardo\OneDrive\erp\sistema\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
